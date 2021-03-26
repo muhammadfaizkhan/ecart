@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/muhammadfaizkhan.github.io/ecart/static/css/main.19cd468a.chunk.css",
+    "main.js": "/muhammadfaizkhan.github.io/ecart/static/js/main.7479e0d3.chunk.js",
+    "main.js.map": "/muhammadfaizkhan.github.io/ecart/static/js/main.7479e0d3.chunk.js.map",
+    "runtime-main.js": "/muhammadfaizkhan.github.io/ecart/static/js/runtime-main.0555fc53.js",
+    "runtime-main.js.map": "/muhammadfaizkhan.github.io/ecart/static/js/runtime-main.0555fc53.js.map",
+    "static/js/2.7915f990.chunk.js": "/muhammadfaizkhan.github.io/ecart/static/js/2.7915f990.chunk.js",
+    "static/js/2.7915f990.chunk.js.map": "/muhammadfaizkhan.github.io/ecart/static/js/2.7915f990.chunk.js.map",
+    "index.html": "/muhammadfaizkhan.github.io/ecart/index.html",
+    "static/css/main.19cd468a.chunk.css.map": "/muhammadfaizkhan.github.io/ecart/static/css/main.19cd468a.chunk.css.map",
+    "static/js/2.7915f990.chunk.js.LICENSE.txt": "/muhammadfaizkhan.github.io/ecart/static/js/2.7915f990.chunk.js.LICENSE.txt",
+    "static/media/gif.b7fc9a8f.gif": "/muhammadfaizkhan.github.io/ecart/static/media/gif.b7fc9a8f.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0555fc53.js",
+    "static/js/2.7915f990.chunk.js",
+    "static/css/main.19cd468a.chunk.css",
+    "static/js/main.7479e0d3.chunk.js"
+  ]
+}
