@@ -1,0 +1,77 @@
+.card h1 {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.product_card .card {
+  border-radius: 5px;
+  border: 1px solid rgb(231, 231, 231);  
+  height: 400px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  max-width: 250px;
+}
+.product_card .card:hover{
+  box-shadow: 0 0px 22px -2px rgba(199, 75, 224, 0.3);
+  transition: 0.4s ease-in all;
+  transform: translateY(-1%);
+}
+.card > .card_img{
+   max-width: 170px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+.min-details h1 span .anticon{
+  color: goldenrod;
+}
+.card > .card_img > img {
+  max-width: 150px;
+}
+.button{
+  display: flex;
+  align-items: center;
+}
+.button .MuiIconButton-root:hover{
+  color: darkviolet;
+}
+.button .MuiIconButton-root{
+  font-size: 20px;
+}
+.button button.btn{
+  border: 1px solid lightgray;
+  flex: 1;
+  margin-right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+}
+.button button.btn:hover{
+  background-color: darkviolet;
+  color: white;
+}
+.details {
+  background-color: #FFF;
+  border-top: 1px solid rgb(240, 240, 240);
+  padding: 20px;
+  width: 100%;
+  transition: .3s ease-in-out, top .3s ease-in-out;
+}
+.details > .min-details,
+.details > .options,
+.details > .options > .options-size,
+.details > .options > .options-colors {
+  margin-bottom: 20px;
+}
+
+.details > .min-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details > .min-details > h1 > span {
+  color: #7B7B7B;
+  display: block;
+  font-size: .9rem;
+  font-weight: 400;
+}

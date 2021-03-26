@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;400;600;700;800&display=swap');
+
+.title h1{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    padding-left: 25px;
+}
+.title {
+    width: 280px;
+    margin-bottom: 80px;
+    border-radius: 40px;
+    display: inline-block;
+    padding-top: 22px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    position: relative;
+    color: #fff;
+    margin-left: 80px;
+}
+

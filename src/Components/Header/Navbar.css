@@ -1,0 +1,29 @@
+.app_navbar{
+    border-bottom: 1px solid rgba(211, 211, 211, 0.582);
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    padding-top: 18px;
+    padding-right: 2%;
+    padding-bottom: 8px;
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+}   
+
+.pageHeader img{
+    max-width: 100px;
+    cursor: pointer;
+}
+.pageHeader{
+    flex: 1;
+}
+.pageHamburger{
+    cursor: pointer;
+}
+.pageHamburger .anticon svg:hover{
+    color: rgb(231, 90, 189);
+}
+.pageHamburger .anticon svg{
+    font-size: 17px;
+}

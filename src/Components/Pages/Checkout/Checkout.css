@@ -1,0 +1,50 @@
+.checkout_heading h1{
+    font-family: 'Alegreya Sans Sc', sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+.checkout_heading{
+    margin-bottom: 80px;
+}
+.app_checkout{
+    background: rgb(250, 250, 250);
+    padding: 50px;
+    height: 100%;
+    display: flex;
+}
+.app_checkout .row{
+    max-width: 700px;
+}
+.row input[type="textarea"]{
+    resize: both;
+    padding-bottom: 40px;
+}
+.checkout_left{
+    flex: 0.2;
+    margin-right: 20px;
+}
+.checkout_right{
+    flex: 1;
+
+}
+.button form .btn{
+    margin-top: 40px;
+}
+form {
+    background: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid lightgray;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+    padding-bottom: 20px;
+}
+.row input{
+    padding-top: 8px;
+    border-radius: 2px;box-shadow: none;
+    border: 1px solid lightgray;
+    padding-bottom: 8px;
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400;500;700&family=Alegreya+Sans:wght@100;300;400;500;700&display=swap');
+
+
+.app_cart{
+    display: flex;
+    height: 100vh;
+}
+.cart_left{
+    flex: 0.8;
+    resize: both;
+    border-right: 1px solid lightgray;
+}
+.cart_left h1.cart_heading{
+    font-family: 'Alegreya Sans Sc', sans-serif;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    font-size: 26px;
+}
+
+.cart_right h1.cart_heading2{
+    padding-left: 40px;
+    font-family: 'Alegreya Sans Sc', sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    font-size: 26px;
+}
+.cart_right{
+    flex: 0.3;
+    border-bottom: 1px solid lightgray;
+    max-height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: whitesmoke;
+}
+.button{
+    margin-top: 40px;
+}
+@media screen and (max-width: 768px){
+    .app_cart{
+        display: block;
+        overflow-y: scroll;
+    }
+    .product_details_middle{
+        display: block;
+    }
+    .cart_right{
+        margin-top: 47px;
+        position: relative;
+        padding-bottom: 50px;
+    }
+    .product_details_middle{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .cart_product{
+        margin-bottom: 80px;
+    }
+}
+@media screen and (max-width: 320px){
+    .app_cart{
+        display: block;
+    }
+    .product_details_middle{
+        display: block;
+    }
+    .cart_right{
+        margin-top: 47px;
+        padding-bottom: 50px;
+    }
+    .product_details_middle{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .cart_product{
+        margin-bottom: 80px;
+    }
+}
+.cart_product{
+    border: 1px solid lightgray;
+    background: white;
+    max-width: 250px;
+    margin-top: 100px;
+    margin-left: 40px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+.cart_product:hover{
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.363);
+}
+.cart_product_img img{
+    width: 90%;
+    padding: 40px;    
+}
+.cart_product_heading{
+    display: flex;
+    width: 100%;
+    padding-top: 10PX;
+    padding-left: 30px;
+    align-items: center;
+}
+.cart_product_heading h1.product_heading{
+    font-family: 'Alegreya Sans Sc', sans-serif;
+    font-size: 22px;
+    flex: 0.8;
+}
+.cart_product_heading h5.price_heading{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+    font-size: 20px;
+}
+
+.product_ratings{
+    padding-left: 30px;
+    padding-top: 12px;
+}
+.cart_product_buttons{
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.cart_product_buttons button:hover{
+    background: darkviolet;
+    color: white;
+}
+.cart_product_buttons button{
+    color: darkviolet;
+    border: 1px solid darkviolet;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: transparent;
+    padding-left: 20px;
+    border-radius: 4px;
+    padding-right: 20px;
+}
+.product_ratings .anticon{
+    color: goldenrod;
+}
